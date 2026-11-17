@@ -1,0 +1,10 @@
+package com.logistics.entity.enums;
+
+public enum AuditAction {
+    CREATE,
+    UPDATE,
+    DELETE,
+    LOGIN,
+    LOGOUT,
+    STATUS_CHANGE
+}

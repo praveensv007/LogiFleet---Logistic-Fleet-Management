@@ -1,0 +1,13 @@
+package com.logistics.entity.enums;
+
+public enum NotificationType {
+    SHIPMENT_CREATED,
+    SHIPMENT_STATUS_CHANGED,
+    SHIPMENT_DELAYED,
+    PENDING_SHIPMENT,
+    ASSIGNMENT_NEW,
+    DELIVERY_COMPLETED,
+    PROBLEM_REPORTED,
+    MAINTENANCE_DUE,
+    DOCUMENT_EXPIRING
+}
